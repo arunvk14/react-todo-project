@@ -1,0 +1,42 @@
+.item {
+    font-size: 1.2rem;
+    list-style-type: none;
+    padding: 17px 0px;
+    border-bottom: 1px soliod #eaeaea;
+}
+
+.checkbox {
+    margin-right: 15px;
+}
+.item button {
+    font-size: 13px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    float: right;
+    outline: none;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    margin: -10px 0 0 10px;
+}
+.textInput {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-right: 5px;
+    padding-left: 10px;
+    border-radius: calc(0.5 * 100px);
+}
+/* input[type="checkbox"]:disabled {
+    background: rgb(189, 5, 5);
+}
+input[type="checkbox"]:disabled {
+    background: rgb(17, 208, 0);
+    border: 1px solid #d4d4d5;
+} */
+.item svg {
+    width: 50%;
+}
