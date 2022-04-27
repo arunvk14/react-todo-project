@@ -163,3 +163,9 @@ a {
 .main__content p {
   line-height: 25px;
 }
+.NoMatch {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
