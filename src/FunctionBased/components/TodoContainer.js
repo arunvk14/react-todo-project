@@ -56,7 +56,8 @@ const TodoContainer = () => {
         const newTodo = {
             id: uuidv4(),
             title: title,
-            completed: completed === 'on' ? true : false
+            completed: completed
+            //  === 'on' ? true : false
         }
         setTodos([...todos, newTodo])
     }
